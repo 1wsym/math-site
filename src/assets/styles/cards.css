@@ -1,0 +1,108 @@
+.card {
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.card p {
+    margin: 0;
+    padding: 0;
+}
+
+/* CARDS IN HEADER */
+
+#cardsInHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+#cardsInHeader {
+    gap: 24px;
+}
+
+#cardsInHeader .card {
+    width: 15%;
+    text-align: left;
+    background-color: var(--md-sys-color-primary-container);
+    transition: all 0.2s ease-in-out;
+    border: 1px solid var(--md-sys-color-outline);
+    padding: 32px;
+}
+
+#cardsInHeader p {
+    color: var(--md-sys-color-on-surface-variant);
+}
+
+#cardsInHeader .card h3 {
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+#cardsInHeader .card:hover {
+    transform: translateY(-10px);
+    z-index: 999;
+}
+
+/* NEWS CARDS */
+
+#newsCards {
+    gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 24px 0;
+}
+
+#newsCards .card {
+    width: 25%;
+    text-align: left;
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-secondary-container);
+}
+
+#newsCards img {
+    border-radius: 28px;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.7);
+}
+
+#newsCards .card p {
+    color: var(--md-sys-color-on-surface);
+    padding: 0 32px 32px 32px;
+}
+
+#newsCards .card h3 {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+}
+
+/* MAIN CONTAINER FOR NEWS CARDS */
+
+#mainContainerInMain {
+    margin: 0 -50px;
+    z-index: 1;
+    position: relative;
+}
+
+#mainContainerInMain section {
+    padding: 24px 0;
+}
+
+#mainContainerInMain h2 {
+    padding: 24px 0;
+}

@@ -1,0 +1,67 @@
+:root {
+  font-size: 16px;
+  line-height: 1.5;
+  --md-ref-typeface-brand: 'Roboto', sans-serif;
+  --md-ref-typeface-plain: 'Roboto', sans-serif;
+  --md-sys-typescale-body-medium-font: var(--md-ref-typeface-plain);
+  --md-sys-typescale-display-large-font: var(--md-ref-typeface-brand);
+}
+
+body {
+  margin-top: 70px;
+  background-color: var(--md-sys-color-background);
+  color: var(--md-sys-color-on-background);
+  font-family: 'Roboto';
+  font-size: 24px;
+  line-height: 1.5;
+  padding-top: 50px;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: var(--md-ref-typeface-brand);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: var(--md-sys-color-on-background);
+}
+
+a:hover {
+  color: var(--md-sys-color-inverse-primary) !important;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  color: var(--md-sys-color-on-background);
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: var(--md-sys-color-outlines);
+}
+
+header {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+header h1 {
+  color: var(--md-sys-color-primary);
+}
+
+header h2 {
+  text-align: center;
+  max-width: 70%;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
